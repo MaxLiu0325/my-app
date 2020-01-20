@@ -1,0 +1,20 @@
+query PRODUCT_LIST {
+  products {
+    id
+    name
+    price
+    type
+  }
+}
+
+query PRODUCT($id: ID!) {
+  product(id: $id) {
+    name
+    description
+    price
+    reviews {
+      title
+      review
+    }
+  }
+}

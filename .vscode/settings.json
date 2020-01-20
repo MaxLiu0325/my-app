@@ -1,0 +1,6 @@
+{
+  "javascript.validate.enable": true,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2
+}
